@@ -1,12 +1,22 @@
-.main-app-wrapper {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+.home-page-wrapper {
+  padding-top: 40px;
 
   .create-wrapper {
-    padding: 20px;
+    // padding: 20px;
     width: 200px;
     margin-right: 0px;
     margin-left: auto;
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .paginatin {
+    width: 400px;
+    display: flex;
+    margin: auto;
   }
 }
