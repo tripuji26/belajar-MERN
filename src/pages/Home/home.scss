@@ -1,0 +1,12 @@
+.main-app-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  .create-wrapper {
+    padding: 20px;
+    width: 200px;
+    margin-right: 0px;
+    margin-left: auto;
+  }
+}
